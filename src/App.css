@@ -1,0 +1,68 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.Background{
+  background-color:rgb(255,235,205);
+  border: solid black;
+  height: 800px;
+  display: flex;
+  align-items: center;
+ justify-content: center; 
+}
+.Board {
+  margin: 100px;
+  background-color: blanchedalmond;
+  border-color: gray;
+  text-align: center;
+    height: 500px;  
+  /* width: 100%; */
+} 
+spane {
+  font-size: 50px;
+  color: red;
+}
+.sqr {
+  border: solid gray;
+  height: 150px;
+   width: 150px; 
+   font-size: 500%;
+   color: red;
+   /* font-weight: ; */
+  /* size: 20px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Row {
+  display: flex;
+  /* text-align: center; */
+  /* justify-content: space-between; */
+  /* margin: 40px; */
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.playagain{
+ border: solid gray;
+ width: 100%;
+ padding: 20px;
+ box-shadow: 10px 10px lightblue;
+}
+button {
+  background-color: green;
+  height: 40px;
+  width: 30%;
+  margin-bottom: 20px;
+  /* margin: 20px 0px 0px 100px; */
+  border: none;
+  color: goldenrod;
+}
+h1 {
+  color: green;
+}
+h3 {
+  color: red;
+  font-size: large;
+}
